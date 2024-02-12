@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880380225303",
+    "project_id": "medical-supporter",
+    "storage_bucket": "medical-supporter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880380225303:android:4a62e3c67aa34aed2b7952",
+        "android_client_info": {
+          "package_name": "com.mycompany.realworknocap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu7Hntiwx47cFk_uXEYHtorDLIPhIT0LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
