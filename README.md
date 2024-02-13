@@ -1,3 +1,7 @@
-# Real Work no cap
+# Med-Connect
 
-Dont ask me how to run it
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.

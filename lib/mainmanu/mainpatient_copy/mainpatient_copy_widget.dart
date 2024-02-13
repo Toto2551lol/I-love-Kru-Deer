@@ -323,7 +323,7 @@ class _MainpatientCopyWidgetState extends State<MainpatientCopyWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'ส่งข้อมูล',
+                                                'ส่งข้อมูลผู้ป่วย',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .headlineSmall,

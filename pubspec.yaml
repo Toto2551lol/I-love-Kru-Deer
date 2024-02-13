@@ -1,4 +1,4 @@
-name: real_work_no_cap
+name: med_connect
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -26,7 +26,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   auto_size_text: 3.0.0
-  cached_network_image: ^3.3.1
+  cached_network_image: 3.2.1
   chewie: 1.7.1
   cloud_firestore: 4.13.1
   cloud_firestore_platform_interface: 6.0.5

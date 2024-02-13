@@ -71,7 +71,15 @@ class _Chat2MainWidgetState extends State<Chat2MainWidget> {
               size: 30.0,
             ),
             onPressed: () async {
-              context.pop();
+              if (valueOrDefault(currentUserDocument?.role, '') == 'หมอ') {
+                context.pushNamed('mainpatientCopyCopy');
+              } else {
+                if (valueOrDefault(currentUserDocument?.role, '') == 'คนป่วย') {
+                  context.pushNamed('mainpatient');
+                } else {
+                  context.pushNamed('mainpatientCopy');
+                }
+              }
             },
           ),
           actions: [

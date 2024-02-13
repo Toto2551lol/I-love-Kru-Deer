@@ -420,7 +420,7 @@ class _MainpatientWidgetState extends State<MainpatientWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'ติดต่อผู้ดูเเลระบบ',
+                                                'ติดต่อฝ่ายบริการ',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .headlineSmall,

@@ -7,7 +7,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
-import '/support_ticket/user_list/user_list_widget.dart';
 import 'support_ticket_details_widget.dart' show SupportTicketDetailsWidget;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/gestures.dart';
@@ -25,8 +24,6 @@ class SupportTicketDetailsModel
   // State field(s) for DropDown widget.
   String? dropDownValue;
   FormFieldController<String>? dropDownValueController;
-  // Stores action output result for [Bottom Sheet - user_List] action in Button widget.
-  UsersRecord? selectedUser;
 
   /// Initialization and disposal methods.
 
